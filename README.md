@@ -34,7 +34,7 @@ cd receitas-veganas
 
 # Instale as dependências
 npm install
-
+````
 
 ## ▶️ Como Usar
 
@@ -42,9 +42,9 @@ Para iniciar o aplicativo em ambiente de desenvolvimento, use o seguinte comando
 
 ```bash
 npm run dev
-
+````
 
 O aplicativo será executado no modo de desenvolvimento, e você poderá visualizá-lo em seu simulador ou dispositivo móvel.
 
-<p align="center">Desenvolvido com ❤️ por Gustavo de Paula</p>```
-````
+<p align="center">Desenvolvido com ❤️ por Gustavo de Paula</p>
+
