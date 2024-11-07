@@ -1,19 +1,9 @@
-<h1 align="center">RECEITAS VEGANAS</h1>
+<h1 align="center">🌱 RECEITAS VEGANAS</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0-blue.svg" alt="Versão 1.0">
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="Licença MIT">
 </p>
-
-## 📋 Índice
-
-- [Descrição](#descrição)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
-- [Como Usar](#como-usar)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
 
 ## 🥗 Descrição
 
@@ -35,7 +25,7 @@
 
 Antes de começar, certifique-se de ter o **Node.js** e o **npm** instalados na sua máquina.
 
-```bash
+````bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/receitas-veganas.git
 
@@ -44,4 +34,17 @@ cd receitas-veganas
 
 # Instale as dependências
 npm install
-```
+
+
+## ▶️ Como Usar
+
+Para iniciar o aplicativo em ambiente de desenvolvimento, use o seguinte comando:
+
+```bash
+npm run dev
+
+
+O aplicativo será executado no modo de desenvolvimento, e você poderá visualizá-lo em seu simulador ou dispositivo móvel.
+
+<p align="center">Desenvolvido com ❤️ por Gustavo de Paula</p>```
+````
