@@ -1,0 +1,147 @@
+@media (max-width: 767px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "recipe" "list" "shopping" "footer";
+  }
+  .header__logo {
+    margin-left: 2rem;
+    height: 6rem;
+  }
+  .search {
+    padding-left: 2rem;
+  }
+  .search__field {
+    width: 27.2rem;
+  }
+  .likes__field {
+    padding: 1rem;
+  }
+  .hidden-xs {
+    display: none !important;
+  }
+  .recipe__details {
+    padding: 8rem 3rem 3rem 1rem;
+  }
+  .recipe__ingredients {
+    padding: 8rem 2rem 4rem 2rem;
+    align-items: left;
+  }
+  .recipe__ingredient-list {
+    grid-template-columns: 1fr;
+  }
+  .recipe__directions-text {
+    width: 100%;
+  }
+  .results__title {
+    font-size: 3rem;
+  }
+  .visible-xs {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "recipe" "list" "shopping" "footer";
+  }
+  .recipe__back {
+    left: 3rem;
+  }
+  .search__field {
+    width: 100%;
+  }
+  .hidden-xs {
+    display: none !important;
+  }
+  .visible-xs {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 68.75em) {
+  .container {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
+/*** iPhone and iOS Form Input Zoom Fixes ***/
+/* Fix Input Zoom on devices older than iPhone 5: */
+@media screen and (device-aspect-ratio: 2/3) {
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"] {
+    font-size: 1.6rem;
+  }
+}
+
+/* Fix Input Zoom on iPhone 5, 5C, 5S, iPod Touch 5g */
+@media screen and (device-aspect-ratio: 40/71) {
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"] {
+    font-size: 1.6rem;
+  }
+}
+
+/* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  */
+@media screen and (device-aspect-ratio: 375/667) {
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"] {
+    font-size: 1.6rem;
+  }
+}
+
+/* Fix Input Zoom on iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus, iPhone 8, iPhone X, XS, XS Max  */
+@media screen and (device-aspect-ratio: 9/16) {
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"] {
+    font-size: 1.6rem;
+  }
+}
