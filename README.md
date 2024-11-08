@@ -20,6 +20,7 @@
 - **Vanilla JavaScript** - Para desenvolvimento de funcionalidades interativas.
 - **Node.js e npm** - Gerenciamento de dependências e execução do aplicativo.
 - **CSS** - Para estilos e layout responsivo.
+- **Firebase** - Para banco de dados das receitas.
 
 ## 🔧 Instalação
 
