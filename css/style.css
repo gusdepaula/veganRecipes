@@ -217,7 +217,7 @@ body {
 .search {
   background-color: #fff;
   border-radius: 10rem;
-  /* display: flex; */
+  display: flex; /* Adicionado */
   align-items: center;
   transition: all 0.3s;
   padding-left: 2rem;
@@ -230,6 +230,7 @@ body {
 }
 .search__field {
   border: none;
+  flex: 1; /* Adicionado */
   background: none;
   font-family: inherit;
   color: inherit;
@@ -244,6 +245,12 @@ body {
 }
 .search__field::placeholder {
   color: #dad0cc;
+}
+
+.search__btn {
+  display: flex; /* Adicionado */
+  align-items: center; /* Adicionado */
+  justify-content: center; /* Adicionado */
 }
 
 .likes {
